@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 764px) {
   .place {
-    row-gap: calc((100vw - 320px)/(767 - 320)*(48 - 32) + 32px) calc((100vw - 320px)/(767 - 320)*(28 - 0) + 0px);
+    row-gap: calc((100vw - 320px)/(767 - 320)*(48 - 32) + 32px) calc((100vw - 320px)/(767 - 320)*28);
     grid-template-columns: repeat(auto-fit,minmax(calc((100vw - 320px)/(767 - 320)*(340 - 320) + 320px), 1fr));
     margin-bottom: 72px;
   }
