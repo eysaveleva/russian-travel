@@ -2,8 +2,7 @@
   padding: 0;
   margin: 0 auto;
   padding-top: 92px;
-  margin-left: 48px;
-  width: calc(100% - 48px);
+  width: 100%;
   max-width: 928px;
 }
 
@@ -30,13 +29,11 @@
   .intro {
     padding-top: 88px;
     max-width: 100%;
-    margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     padding-top: 64px;
-    margin-left: 16px;
   }
 }
