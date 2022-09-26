@@ -9,6 +9,7 @@
 @media screen and (max-width: 1024px) {
   .intro__title {
     max-width: calc((100vw - 768px)/(1023 - 768)*(690 - 720) + 720px);
+    margin-left: calc((100vw - 768px)/(1024 - 768)*(0 - 24) + 24px);
   }
 }
 
@@ -16,6 +17,7 @@
   .intro__title {
     max-width: calc((100vw - 320px)/(768 - 320)*(690 - 288) + 288px);
     font-size: calc((100vw - 320px)/(768 - 320)*(54 - 32) + 32px);
+    margin-left: calc((100vw - 320px)/(768 - 320)*(24 - 16) + 16px);
   }
 }
 
