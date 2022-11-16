@@ -1,0 +1,14 @@
+ .footer-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 18px;
+}
+
+@media screen and (min-width: 321px){
+  .footer-links {
+    flex-direction: row;
+    gap: 32px;
+  }
+}
