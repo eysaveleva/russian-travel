@@ -9,6 +9,11 @@
 @media screen and (min-width: 321px){
   .footer-links {
     flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .footer-links {
     gap: 32px;
   }
 }
