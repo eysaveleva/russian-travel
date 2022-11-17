@@ -6,10 +6,10 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 697px) {
   .website {
-    margin-left: 28px;
-    margin-right: 28px;
+    margin-left: calc((100vw - 320px)/(768 - 320)*(28 - 16) + 16px);
+    margin-right: calc((100vw - 320px)/(768 - 320)*(28 - 16) + 16px);
   }
 }
 
