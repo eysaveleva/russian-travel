@@ -26,12 +26,14 @@
 @media screen and (max-width: 768px) {
   .place__image {
     max-width: calc((100vw - 320px)/(768 - 320)*(340 - 320) + 320px);
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
     max-width: 100%;
+    margin: 0;
   }
 }
 
