@@ -12,17 +12,39 @@
   padding-top: 33px;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (max-width: 320px) {
   .cover__title {
-    font-size: 72px;
+    padding-top: 33px;
+  }
+}
+@media screen and (min-width: 321px) {
+  .cover__title {
+    padding-top: calc((100vw - 321px)/(768 - 321)*(115 - 33) + 33px);
+    font-size: calc((100vw - 321px)/(769 - 321)*(72 - 32) + 32px);
+    min-width: calc((100vw - 321px)/(768 - 321)*(560 - 288) + 288px);
+    max-width: 560px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .cover__title {
+    padding-top: calc((100vw - 769px)/(1024 - 769)*(195 - 115) + 115px);
     min-width: 560px;
-    padding-top: 115px;
+    font-size: 72px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__title {
     padding-top: 195px;
+    font-size: 72px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .cover__title {
+    padding-top: 195px;
+    padding-top: calc((100vw - 1025px)/(1280 - 1025)*(245 - 195) + 195px);
   }
 }
 
