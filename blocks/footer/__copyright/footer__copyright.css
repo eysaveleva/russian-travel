@@ -5,7 +5,13 @@
   font-size: 14px;
   line-height: 114%;
   text-align: right;
-  min-width: 220px;
+  min-width: 218px;
+}
+
+@media screen and (max-width: 503px){
+  .footer__copyright {
+    min-width: 142px;
+  }
 }
 
 @media screen and (max-width: 320px){
